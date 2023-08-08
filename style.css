@@ -1,0 +1,157 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Apply flex */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  min-height: 100vh;
+  background: url('files/clock.png') center/cover;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevent scroll bars */
+}
+
+/* Background */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('files/clock.png') center/cover;
+  z-index: -1; /* Place the background behind other content */
+}
+
+/* Main Container */
+.wrapper {
+  position: relative;
+  padding: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 1px 66px -30px rgba(0, 0, 0, 0.75);
+  background: rgba(134, 223, 224, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Time box */
+#timeBox {
+  position: absolute;
+  top: 10px; /* Add gap from the top */
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* Time text */
+#currentTime {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* Main content */
+.wrapper .content {
+  display: flex;
+  flex-direction: row; /* Display dropdowns horizontally */
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Add spacing between dropdowns */
+  margin-top: 20px; /* Add gap from the time */
+}
+
+/* Hour Minute AM/PM section */
+.content .column {
+  border-radius: 5px;
+  border: 1px solid #999;
+  width: calc(100% / 3 - 5px);
+}
+
+.content .column select {
+  outline: none;
+  border: none;
+  height: 53px;
+  width: 100%;
+  font-size: 1rem;
+  padding-left: 10px;
+  cursor: pointer;
+  background-color: rgb(218, 239, 244);
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+/* Set Button */
+.wrapper button,
+#resumeBtn {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: brown;
+  background-color: rgb(174, 52, 52);
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+/* Click effect on button */
+.wrapper button:active,
+#resumeBtn:active {
+  background-color: rgb(174, 52, 52);
+  font-size: 1.2rem;
+  /* padding: 0.8rem 0; */
+}
+
+/* Resume button */
+#resumeBtn {
+  background-color: rgb(9, 107, 255);
+  width: 200px;
+}
+
+/* Welcome Back Screen */
+
+.welcomeBack {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(86, 145, 224);
+  background: radial-gradient(
+    circle,
+    rgba(86, 145, 224, 1) 17%,
+    rgba(0, 117, 255, 1) 73%
+  );
+  z-index: 10;
+  flex-direction: column;
+}
+
+.d-none {
+  display: none;
+}
+
+/* Media queries */
+@media screen and (max-width: 500px) {
+  .wrapper {
+    width: 95vw;
+  }
+
+  .welcomeBack {
+    font-size: 0.5rem;
+  }
+}
