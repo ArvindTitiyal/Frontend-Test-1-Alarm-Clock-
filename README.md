@@ -1,5 +1,5 @@
 # Frontend-Test-1-Alarm-Clock-
-App Link : https://github.com/ArvindTitiyal?tab=repositories
+App Link : https://arvindtitiyal.github.io/Frontend-Test-1-Alarm-Clock-/
 
 Coding Ninjas Alarm Clock - An Interactive Alarm Clock Application
 
