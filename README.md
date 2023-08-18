@@ -42,6 +42,7 @@ Usage
 Customization
 You can customize the application's appearance by modifying the style.css file. Additionally, you can change the alarm ringtone by replacing the ringtone.mp3 file in the files folder.
 
+
 Contributing
 Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request with your proposed changes.
 
