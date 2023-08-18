@@ -40,11 +40,11 @@ Usage
     * To stop the ringtone, clear the alarm or click the "Resume Alarm" button.
 
 Customization
-  You can customize the application's appearance by modifying the style.css file. Additionally, you can change the alarm ringtone by replacing the ringtone.mp3 file in the files folder.
+  * You can customize the application's appearance by modifying the style.css file. Additionally, you can change the alarm ringtone by replacing the ringtone.mp3 file in the files folder.
 
 
 Contributing
-  Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request with your proposed changes.
+  * Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request with your proposed changes.
 
 Credits
   * Coding Ninjas 
