@@ -13,11 +13,11 @@ Features
 
 Installation
 1. Clone this repository to your local machine using:
-    git clone https://github.com/ArvindTitiyal/Frontend-Test-1-Alarm-Clock-.git
+   * git clone https://github.com/ArvindTitiyal/Frontend-Test-1-Alarm-Clock-.git
 
 
 2. Navigate to the project directory:
-    cd Frontend-Test-1-Alarm-Clock-
+    * cd Frontend-Test-1-Alarm-Clock-
 
 3. Open the index.html file in your preferred web browser to access the alarm clock application.
 
@@ -38,14 +38,6 @@ Usage
 4. Alarm Ringtone:
     * The alarm ringtone will play continuously when the alarm time matches the current time.
     * To stop the ringtone, clear the alarm or click the "Resume Alarm" button.
-
-Usage
-    * Open the application by loading the index.html file in your web browser.
-    * Set your desired alarm time by choosing the hour, minute, and AM/PM.
-    * Click the "Set Alarm" button to activate the alarm.
-    * If you exit the webpage and return later, you can resume the alarm by clicking the "Resume Alarm" button.
-    * The application will play a soothing ringtone when the set alarm time matches the current time.
-    * To clear the alarm, click the "Clear Alarm" button.
 
 Customization
 You can customize the application's appearance by modifying the style.css file. Additionally, you can change the alarm ringtone by replacing the ringtone.mp3 file in the files folder.
